@@ -40,7 +40,7 @@
 
 @media (max-width: 768px) {
   .neighborhoods {
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
   }
   
   .neighborhoods-title {
@@ -60,6 +60,10 @@
 }
 
 @media (max-width: 480px) {
+  .neighborhoods {
+    padding: 0.5rem 0;
+  }
+  
   .neighborhoods-grid {
     grid-template-columns: 1fr;
     gap: 0.5rem;

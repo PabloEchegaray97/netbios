@@ -46,7 +46,7 @@
 
 @media (max-width: 768px) {
   .call-to-action {
-    padding: 2rem 0;
+    padding: 0.5rem 0;
   }
   
   .cta-content {
@@ -64,6 +64,10 @@
 }
 
 @media (max-width: 480px) {
+  .call-to-action {
+    padding: 0.5rem 0;
+  }
+  
   .cta-text {
     font-size: 1rem;
   }

@@ -31,7 +31,7 @@
 
 @media (max-width: 768px) {
   .hero-section {
-    padding: 2rem 0;
+    padding: 0.5rem 0;
   }
   
   .hero-title {
@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 480px) {
+  .hero-section {
+    padding: 0.5rem 0;
+  }
+  
   .hero-title {
     font-size: 1.6rem;
   }
