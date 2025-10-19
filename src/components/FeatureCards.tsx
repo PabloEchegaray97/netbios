@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bolt, Security, Speed } from '@mui/icons-material';
+import { Bolt, Security, FastForward } from '@mui/icons-material';
 import './FeatureCards.css';
 
 const FeatureCards: React.FC = () => {
@@ -15,7 +15,7 @@ const FeatureCards: React.FC = () => {
       description: 'La fibra óptica directa a tu casa garantiza una conexión sin microcortes.'
     },
     {
-      icon: <Speed sx={{ fontSize: { xs: 36, sm: 40, md: 48 } }} />,
+      icon: <FastForward sx={{ fontSize: { xs: 36, sm: 40, md: 48 } }} />,
       title: 'Instalación Rápida',
       description: 'Coordinamos la instalación en menos de 72hs para que navegues al instante.'
     }
