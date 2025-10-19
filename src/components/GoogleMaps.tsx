@@ -9,7 +9,7 @@ const GoogleMaps: React.FC = () => {
           <h3 className="maps-title">Nuestra Cobertura</h3>
           <div className="maps-embed">
             <iframe
-              src="https://www.google.com/maps/d/embed?mid=1At_maCn4ZxR5FlvRXOWpnlZ8KG05cZs"
+              src="https://www.google.com/maps/d/embed?mid=1xCbxyWyuRdFD_YaFQMw9WJAx1-Cfbio"
               width="100%"
               height="400"
               style={{ border: 0 }}
