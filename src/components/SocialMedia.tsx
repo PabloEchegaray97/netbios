@@ -10,8 +10,8 @@ const SocialMedia: React.FC = () => {
   };
 
   const handleInstagramClick = () => {
-    // Por ahora no tiene link
-    console.log('Instagram - Link pendiente');
+    const instagramUrl = 'https://www.instagram.com/netbios.internet/';
+    window.open(instagramUrl, '_blank');
   };
 
   return (

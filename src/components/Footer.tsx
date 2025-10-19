@@ -7,11 +7,11 @@ const Footer: React.FC = () => {
       <div className="container">
         <p className="footer-text">
           <a href="https://netbios-internet.netlify.app/" target="_blank" rel="noopener noreferrer" className="footer-link">
-            netbios.com.ar
+            Netbios
           </a>
           {' | '}
-          <a href="https://www.facebook.com/p/Netbios-Internet-100043336125568/?locale=es_LA" target="_blank" rel="noopener noreferrer" className="footer-link">
-            @Netbiosinternet
+          <a href="https://www.instagram.com/netbios.internet/" target="_blank" rel="noopener noreferrer" className="footer-link">
+            @netbios.internet
           </a>
         </p>
       </div>
