@@ -1,0 +1,72 @@
+.neighborhoods {
+  padding: 1.5rem 0;
+  background: transparent;
+  text-align: center;
+}
+
+.neighborhoods-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--accent-cyan);
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+}
+
+.neighborhoods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.8rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.neighborhood-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.neighborhood-item:hover {
+  background: rgba(0, 212, 255, 0.1);
+  border-color: var(--accent-cyan);
+  color: var(--text-white);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .neighborhoods {
+    padding: 1.5rem 0;
+  }
+  
+  .neighborhoods-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .neighborhoods-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.6rem;
+  }
+  
+  .neighborhood-item {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .neighborhoods-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .neighborhood-item {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.75rem;
+  }
+}

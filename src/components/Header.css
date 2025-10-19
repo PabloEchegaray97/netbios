@@ -1,0 +1,52 @@
+.header {
+  padding: 1.5rem 0;
+  text-align: center;
+  background: transparent;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin: 0;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: var(--accent-cyan);
+  margin: 0;
+  font-weight: 300;
+  text-shadow: 
+    0 0 5px rgba(0, 212, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1.5rem 0;
+  }
+  
+  .logo {
+    height: 85px;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 75px;
+  }
+  
+  .tagline {
+    font-size: 0.9rem;
+  }
+}
